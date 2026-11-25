@@ -85,10 +85,17 @@
 
 ## 🐍 Активность
 
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+<!--                        CONTRIBUTION SNAKE                               -->
+<!-- ════════════════════════════════════════════════════════════════════════ -->
+
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kubaofficialpage/kubaofficialpage/output/snake-dark.svg">
-  <img alt="Змейка съедает contributions" src="https://raw.githubusercontent.com/kubaofficialpage/kubaofficialpage/output/snake-light.svg">
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kubaofficialpage/kubaofficialpage/output/snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/kubaofficialpage/kubaofficialpage/output/snake-light.svg" />
+  <img alt="github-snake" src="https://raw.githubusercontent.com/kubaofficialpage/kubaofficialpage/output/snake-dark.svg" width="100%"/>
 </picture>
+
+<br/>
 
 ---
 
