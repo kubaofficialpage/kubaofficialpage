@@ -1,0 +1,31 @@
+name: Contributions snake
+
+on:
+  schedule:
+    - cron: "0 0 * * *" # каждый день
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  snake:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: Platane/snk@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?color_snake=#4f7d24&color_dots=#ebedf0,#d4ecb0,#a9d65a,#8cc63f,#4f7d24
+            dist/snake-dark.svg?color_snake=#a9d65a&color_dots=#161b22,#24371a,#3f6420,#6ea530,#a9d65a&color_background=#0d1117
+
+      - uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+          commit_message: "Обновить змейку contributions"
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

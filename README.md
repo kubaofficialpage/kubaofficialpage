@@ -83,6 +83,15 @@
 
 ---
 
+## 🐍 Активность
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/kubaofficialpage/kubaofficialpage/output/snake-dark.svg">
+  <img alt="Змейка съедает contributions" src="https://raw.githubusercontent.com/kubaofficialpage/kubaofficialpage/output/snake-light.svg">
+</picture>
+
+---
+
 <div align="center">
 
 **Kiwi IT-Company LLC** · Ош, Кыргызстан · [@kubaofficial](https://t.me/kubaofficial)
